@@ -15,6 +15,9 @@ alias cp='cp -i'
 alias la='ls -a'
 alias vi='vim'
 alias g='git'
+alias gc='git commit'
+alias gcm='git commit -m'
+alias gpo='git push origin'
 alias gs='git status'
 
 autoload -U promptinit; promptinit
