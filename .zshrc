@@ -14,6 +14,7 @@ alias mv='mv -i'
 alias cp='cp -i'
 alias la='ls -a'
 alias vi='vim'
+alias g='git'
 alias gs='git status'
 
 autoload -U promptinit; promptinit
