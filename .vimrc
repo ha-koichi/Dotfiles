@@ -7,6 +7,8 @@ Plug 'Shougo/neomru.vim'
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'reireias/vim-cheatsheet'
+
 call plug#end()
 
 " setting
@@ -23,6 +25,7 @@ set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
 
+let g:cheatsheet#cheat_file = '~/Documents/cmd_and_shotcutkey/VimShortcutKeys.md'
 
 " 見た目系
 " 行番号を表示

@@ -1,3 +1,6 @@
+set background=dark
+colorscheme hybrid
+
 "半角文字の設定
 "set guifont='Ricty Regular'\ 'DejaVu Sans Mono'\ Consolas:h18
 set guifont=Fira\ Code\ Retina:h12
