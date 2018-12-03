@@ -25,7 +25,7 @@ set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
 
-let g:cheatsheet#cheat_file = '~/Documents/cmd_and_shotcutkey/VimShortcutKeys.md'
+let g:cheatsheet#cheat_file = '~/Dotfiles/cheetsheets/vim-cheetsheet.md'
 
 " 見た目系
 " 行番号を表示
