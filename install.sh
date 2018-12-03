@@ -9,4 +9,4 @@ if [ ! -e "~/.vim/colors" ]; then
   mkdir ~/.vim/colors
   echo "It made color directory."
 fi
-ln -snfv hybrid.vim ~/.vim/colors/
+cp -ivf hybrid.vim ~/.vim/colors/
