@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 18,
+    fontSize: 16,
 
     // font family with optional fallbacks
     // fontFamily: 'Ricty Regular, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -143,7 +143,8 @@ module.exports = {
     "hypercwd",
     "hyperterm-base-16-ocean",
     "hyper-opacity",
-    "hyper-pokemon"
+    "hyper-pokemon",
+    "hyperpower"
   ],
 
   // in development, you can create a directory under
