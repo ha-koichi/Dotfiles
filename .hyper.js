@@ -125,10 +125,18 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
-    pokemon: 'random', // Choose your favorite pokemon theme
     unibody: 'true', // Choose the color of the window header
-    poketab: 'false', // Deactivate your theme's poketab
-    opacity: 0.90
+    opacity: 0.90,
+    hyperline: {
+      plugins: [
+        "ip",
+        "memory",
+        "battery",
+        "cpu",
+        "network",
+      ]
+    },
+
   },
 
   // a list of plugins to fetch and install from npm
@@ -138,12 +146,11 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    "hyper-statusline",
+    "hyperline",
     "hyper-tab-icons-plus",
     "hypercwd",
     "hyperterm-base-16-ocean",
     "hyper-opacity",
-    "hyper-pokemon",
     "hyperpower"
   ],
 
