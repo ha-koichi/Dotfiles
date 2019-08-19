@@ -10,3 +10,4 @@ if [ ! -e "~/.vim/colors" ]; then
   echo "It made color directory."
 fi
 cp -ivf hybrid.vim ~/.vim/colors/
+

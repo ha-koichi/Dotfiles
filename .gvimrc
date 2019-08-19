@@ -1,14 +1,14 @@
 set background=dark
-colorscheme hybrid
-
-"半角文字の設定
-"set guifont='Ricty Regular'\ 'DejaVu Sans Mono'\ Consolas:h18
-set guifont=Fira\ Code\ Retina:h12
-colorscheme iceberg
-" set linespace=2.5
-colorscheme solarized
-" ウィンドウの縦幅
-set lines=55
-" ウィンドウの横幅
-set columns=180
+set linespace=2.5
+set lines=40
+set columns=160
+set guifont=Ricty:h18
+set linespace=2.5
+set transparency=10
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set cursorline
+set number
+colorscheme gruvbox
 

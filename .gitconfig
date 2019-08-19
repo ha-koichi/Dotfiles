@@ -2,6 +2,7 @@
   quotepath = false
   safecrlf = true
   autocrlf = false
+	excludesfile = /Users/ldi_harada/.gitignore_global
 
 [alias]
   st = status
@@ -14,3 +15,12 @@
   l = log --decorate --oneline
   ls         = log --decorate --oneline --stat
   lg         = log --decorate --oneline --graph
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = ldi_kharada
+	email = k.harada@ldi.co.jp
