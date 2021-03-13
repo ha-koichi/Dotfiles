@@ -3,7 +3,7 @@ do
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
 
-    ln -snfv ~/dotfiles/"$f" ~/
+    ln -snfv ~/Dotfiles/"$f" ~/
 done
 if [ ! -e "~/.vim/colors" ]; then
   mkdir ~/.vim/colors

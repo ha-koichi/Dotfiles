@@ -1,6 +1,16 @@
 *~
+# Mac
 .DS_Store
+
+# iOS project
+project.xcworkspace
+xcuserdata
+*.xcuserstate
+
+# Python
+__pycache__
+
+# IDE
 .vscode/*
 .idea
-__pycache__
 
