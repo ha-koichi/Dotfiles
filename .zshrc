@@ -20,7 +20,9 @@ prompt pure
 
 
 export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
-export PATH="/usr/local/opt/node@8/bin:$PATH"
+
+# Node.js
+export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # Android
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -61,8 +63,8 @@ alias doc='docker-compose'
 
 # Yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# Ruby
 [[ -d ~/.rbenv  ]] && \
   export PATH=${HOME}/.rbenv/bin:${PATH} && \
   eval "$(rbenv init -)"
@@ -71,3 +73,4 @@ export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 # Flutter
 export PATH="$PATH:$HOME/development/flutter/bin"
 alias fl='flutter'
+
